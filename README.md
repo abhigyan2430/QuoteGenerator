@@ -1,5 +1,9 @@
 # Random Quote Generator
 
+#liveDemo
+https://abhigyan2430.github.io/QuoteGenerator/
+
+
 ## Overview
 This is a simple and responsive Random Quote Generator web application that fetches quotes from the typefit api and displays them on the page. Users can generate a new random quote by clicking a button.
 
