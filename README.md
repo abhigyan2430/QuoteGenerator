@@ -4,7 +4,7 @@
 This is a simple and responsive Random Quote Generator web application that fetches quotes from the typefit api and displays them on the page. Users can generate a new random quote by clicking a button.
 
 ## Features
-- Fetches random quotes from the GoQuotes API.
+- Fetches random quotes from the typefit API.
 - Displays quotes along with the author's name.
 - Responsive design that looks good on both desktop and mobile devices.
 
