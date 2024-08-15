@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>InspireMe Quotes</h1>
+
+            <div class="form-group">
+                <label for="genre">Select Genre</label>
+                <select id="genre">
+                    <option value="motivational">Motivational</option>
+                    <option value="inspirational">Inspirational</option>
+                    <option value="funny">Funny</option>
+                    <option value="philosophical">Philosophical</option>
+                    <option value="love">Love</option>
+                    <option value="success">Success/option>
+                    <option value="friendship">Friendship</option>
+                    <option value="wisdom">Wisdom</option>
+                    <option value="art and creativity">Art & Creativity</option>
+                    <option value="moral">Moral</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Describe the Quote</label>
+                <textarea id="description" placeholder="Enter details for the quote you want to generate..."></textarea>
+            </div>
+
+            <button id="generateBtn">Generate Quote</button>
+
+            <div id="quoteDisplay" class="quote-display">
+                <p id="quoteText"></p>
+            </div>
+        </div>
+    </div>
+    <script src="server.js"></script>
+</body>
+
+</html>

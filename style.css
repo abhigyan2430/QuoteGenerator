@@ -1,0 +1,145 @@
+/* Import Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b813f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #1e2a38;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.form-group {
+    margin: 20px 0;
+    text-align: left;
+}
+
+label {
+    font-weight: 600;
+    color: #4a4a4a;
+    margin-bottom: 8px;
+    display: block;
+}
+
+select,
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 2px solid #dfe3e8;
+    font-size: 16px;
+    color: #333;
+    background-color: #f7f8fa;
+    transition: border-color 0.3s ease;
+}
+
+select:focus,
+textarea:focus {
+    border-color: #5f85db;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #3e0464;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0c0339;
+}
+
+.quote-display {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #9db6e0;
+    border-radius: 12px;
+    border: 2px solid #dfe3e8;
+    color: #333;
+    text-align: left;
+}
+
+.quote-display p {
+    font-size: 20px;
+    font-style: italic;
+    color: #1e2a38;
+    margin: 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .quote-display p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .quote-display p {
+        font-size: 16px;
+    }
+}
